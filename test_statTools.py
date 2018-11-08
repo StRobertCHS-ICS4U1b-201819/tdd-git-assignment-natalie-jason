@@ -1,3 +1,6 @@
 import pytest
-from statTools import *
 
+from statTools import *
+def testavg ():
+    print("Hello World")
+    
