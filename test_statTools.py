@@ -19,3 +19,6 @@ def testmedian2 ():
 
 def testmedian3 ():
     assert(median([1, 6, 7, 9]) == 6.5)
+
+def testlowquart1 ():
+    assert(lower_quartile([]) == -1)

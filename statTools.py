@@ -10,7 +10,7 @@ def mean(myList):
 def median(myList):
     myList.sort()
     first = 0
-    last = len(myList) -1
+    last = len(myList) - 1
     mid = (first + last) // 2
     median = 0.0
 
@@ -22,3 +22,18 @@ def median(myList):
         median = (myList[mid])
         return float(median)
 
+def lower_quartile(myList):
+    '''
+    sort list
+    find the median,name that mid 1 
+    find median of lower list
+    '''
+
+    myList.sort()
+    first = 0
+    last = len(myList) - 1
+    mid = (first + last) //2
+    median = 0.0
+
+    if len(myList) == 0:
+        return -1
