@@ -1,6 +1,7 @@
 import pytest
-
+import math
 from statTools import *
-def testavg ():
-    print("Hello World")
-    
+
+
+def testmean1 ():
+    assert(mean([]) == -1 )
