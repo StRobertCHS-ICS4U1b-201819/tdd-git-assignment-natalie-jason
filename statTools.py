@@ -18,6 +18,7 @@ def median(myList):
         median = (myList[mid] + myList[mid + 1]) / 2.0
         return median
 
-
-
+    else:
+        median = (myList[mid])
+        return float(median)
 

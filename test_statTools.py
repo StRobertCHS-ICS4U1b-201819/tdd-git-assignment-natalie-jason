@@ -16,3 +16,6 @@ def testmedian1 ():
 
 def testmedian2 ():
     assert(median([1,4,5]) == 4)
+
+def testmedian3 ():
+    assert(median([1, 6, 7, 9]) == 6.5)
