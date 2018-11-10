@@ -7,5 +7,8 @@ rangeList2 = [11,15,16,5,28,64,845,82,25]
 rangeList3 = []
 
 def test_range_1():
-    print(range(rangeList1))
+    assert(range(rangeList1) == 536)
+
+def test_range_2():
+    assert(range(rangeList2) == 840)
 

@@ -10,8 +10,5 @@ Created: 11/09/2018
 """
 
 def range(rangeList):
-    if len(rangeList == 0):
-        return -1
-    else:
-        rangeList.sort()
-        return rangeList[len(rangeList) - 1] - rangeList[0]
+    rangeList.sort()
+    return rangeList[len(rangeList) - 1] - rangeList[0]
