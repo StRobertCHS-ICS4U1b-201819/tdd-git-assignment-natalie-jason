@@ -50,5 +50,9 @@ def testhighquart3 ():
 def testhighquart4 ():
     print(upper_quartile([1, 5, 7, 9, 23, 25, 27]))
 
+def testhighquart5 ():
+    print(upper_quartile([2, 4, 4, 5, 6, 7, 8]))
+
+
 def testhighlaj ():
     print(sort([34, 47, 1, 15, 57, 24, 20, 11, 19, 50, 28, 37, 44]))

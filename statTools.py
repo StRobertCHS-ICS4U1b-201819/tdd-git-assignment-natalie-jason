@@ -72,7 +72,7 @@ def upper_quartile (myList):
         return median
 
     else:
-        median = (newList[newMed])
+        median = newList[(first + len(newList)) /2 ]
         return median
 
 def sort(myList):
