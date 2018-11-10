@@ -2,6 +2,7 @@ import pytest
 import math
 from statTools import *
 
+    # Test Mean Function
     # Basic Test Case #1: Illegal Case
 def testmean1 ():
     assert(mean([]) == -1)
@@ -12,6 +13,7 @@ def testmean2 ():
 def testmean3 ():
     assert(mean([1,4,5,8,6, 11]) == 5.833)
 
+    # Test Median Function
     # Basic Test Case #1: Illegal Case
 def testmedian1 ():
     assert(median([]) == -1)
@@ -22,7 +24,7 @@ def testmedian2 ():
 def testmedian3 ():
     assert(median([1, 6, 7, 9]) == 6.5)
 
-    # test cases for higher quartile function
+    # Test Higher Quartile Function
     # test for illegal case
 def testlowquart1 ():
     assert(lower_quartile([]) == -1)
