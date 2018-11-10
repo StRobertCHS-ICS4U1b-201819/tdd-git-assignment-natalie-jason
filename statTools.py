@@ -63,7 +63,7 @@ def upper_quartile (myList):
     mid = (first + (len(myList) - 1)) //2
     newList = myList[mid:]
     median = 0.0
-    newMed = 0
+    newMed = (mid + (len(newList) - 1)) // 2
 
     if len(myList) == 0:
         return -1
@@ -72,11 +72,13 @@ def upper_quartile (myList):
         return myList[2]
 
     elif len(myList) % 2 == 0:
-        newMed = (mid + (len(myList) - 1)) //2
         median = (newList[newMed] + newList[newMed + 1]) / 2.0
         return median
 
     else:
+        median = (mid + (len(newList) - 1)) // 2
+        return median
+
 
 
 
