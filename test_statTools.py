@@ -12,5 +12,8 @@ def test_range_1():
 def test_range_2():
     assert(range(rangeList2) == 840)
 
-
+def test_range_3():
+    with pytest.raises(ValueError) as valerror:
+        range(rangeList3)
+    assert ("No Data Provided" == str(valerror.value))
 

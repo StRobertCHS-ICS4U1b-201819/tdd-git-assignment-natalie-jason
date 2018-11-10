@@ -11,11 +11,10 @@ Created: 11/09/2018
 
 def range(rangeList):
     if len(rangeList) == 0:
-        raise ValueError("No values inputted. ")
-
+        raise ValueError("No Data Provided")
     try:
         rangeList.sort()
-        return rangeList[len(rangeList) - 1] - rangeList[0]
-
+        realRange = rangeList[len(rangeList) - 1] - rangeList[0]
+        return round(realRange, 2)
     except TypeError:
         raise TypeError("Invalid List Provided")
