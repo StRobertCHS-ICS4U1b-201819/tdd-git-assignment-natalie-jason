@@ -14,15 +14,19 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testmean2.coverage" NAME="pytest for test_statTools.testmean2 Coverage Results" MODIFIED="1541784075570" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testlowquart5.coverage" NAME="pytest for test_statTools.testlowquart5 Coverage Results" MODIFIED="1541811952440" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testmedian2.coverage" NAME="pytest for test_statTools.testmedian2 Coverage Results" MODIFIED="1541786978144" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$statTools.coverage" NAME="statTools Coverage Results" MODIFIED="1541788123167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testlowquart1.coverage" NAME="pytest for test_statTools.testlowquart1 Coverage Results" MODIFIED="1541810839509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_in_test_statTools_py.coverage" NAME="pytest in test_statTools.py Coverage Results" MODIFIED="1541784340395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$test_statTools_py.coverage" NAME="test_statTools.py Coverage Results" MODIFIED="1541784594979" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testmean3.coverage" NAME="pytest for test_statTools.testmean3 Coverage Results" MODIFIED="1541784740941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testlowquart4.coverage" NAME="pytest for test_statTools.testlowquart4 Coverage Results" MODIFIED="1541811447073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testmedian1.coverage" NAME="pytest for test_statTools.testmedian1 Coverage Results" MODIFIED="1541784858709" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testlowquart3.coverage" NAME="pytest for test_statTools.testlowquart3 Coverage Results" MODIFIED="1541811325740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testlowquart1.coverage" NAME="pytest for test_statTools.testlowquart1 Coverage Results" MODIFIED="1541810839509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testlowquart6.coverage" NAME="pytest for test_statTools.testlowquart6 Coverage Results" MODIFIED="1541812051050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_in_test_statTools_py.coverage" NAME="pytest in test_statTools.py Coverage Results" MODIFIED="1541784340395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testmean3.coverage" NAME="pytest for test_statTools.testmean3 Coverage Results" MODIFIED="1541784740941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testmedian3.coverage" NAME="pytest for test_statTools.testmedian3 Coverage Results" MODIFIED="1541801397202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testlowquart2.coverage" NAME="pytest for test_statTools.testlowquart2 Coverage Results" MODIFIED="1541811006311" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/tdd_git_assignment_natalie_jason$pytest_for_test_statTools_testlowquart2.coverage" NAME="pytest for test_statTools.testlowquart2 Coverage Results" MODIFIED="1541811385566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="2096596412">
@@ -49,7 +53,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="md" value="62" />
-          <entry key="py" value="2486" />
+          <entry key="py" value="2757" />
           <entry key="txt" value="125" />
         </counts>
       </usages-collector>
@@ -57,7 +61,7 @@
         <counts>
           <entry key="Markdown" value="62" />
           <entry key="PLAIN_TEXT" value="125" />
-          <entry key="Python" value="2486" />
+          <entry key="Python" value="2757" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -69,14 +73,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+            <state relative-caret-position="430">
+              <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1541811072000" expanded="true" signature="209:210" ph="..." />
-                <marker date="1541811072000" expanded="true" signature="280:285" ph="..." />
-                <marker date="1541811072000" expanded="true" signature="397:402" ph="..." />
-                <marker date="1541811072000" expanded="true" signature="457:462" ph="..." />
+                <marker date="1541811998000" expanded="true" signature="209:210" ph="..." />
+                <marker date="1541811998000" expanded="true" signature="280:285" ph="..." />
+                <marker date="1541811998000" expanded="true" signature="397:402" ph="..." />
+                <marker date="1541811998000" expanded="true" signature="457:462" ph="..." />
+                <marker date="1541811998000" expanded="true" signature="531:536" ph="..." />
+                <marker date="1541811998000" expanded="true" signature="609:614" ph="..." />
+                <marker date="1541811998000" expanded="true" signature="702:707" ph="..." />
+                <marker date="1541811998000" expanded="true" signature="800:805" ph="..." />
               </folding>
             </state>
           </provider>
@@ -85,13 +93,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-10">
-              <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="306">
+              <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
               <folding>
-                <marker date="1541811006000" expanded="true" signature="17:18" ph="..." />
-                <marker date="1541811006000" expanded="true" signature="17:23" ph="..." />
-                <marker date="1541811006000" expanded="true" signature="190:195" ph="..." />
-                <marker date="1541811006000" expanded="true" signature="503:504" ph="..." />
+                <marker date="1541812051000" expanded="true" signature="17:18" ph="..." />
+                <marker date="1541812051000" expanded="true" signature="17:23" ph="..." />
+                <marker date="1541812051000" expanded="true" signature="190:195" ph="..." />
+                <marker date="1541812051000" expanded="true" signature="503:504" ph="..." />
               </folding>
             </state>
           </provider>
@@ -106,8 +114,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/statTools.py" />
         <option value="$PROJECT_DIR$/test_statTools.py" />
+        <option value="$PROJECT_DIR$/statTools.py" />
       </list>
     </option>
   </component>
@@ -170,45 +178,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_statTools.testlowquart2">
-    <configuration name="statTools" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="tdd-git-assignment-natalie-jason" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/statTools.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest for test_statTools.testlowquart1" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="tdd-git-assignment-natalie-jason" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_statTools.testlowquart1&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.pytest for test_statTools.testlowquart6">
     <configuration name="pytest for test_statTools.testlowquart2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tdd-git-assignment-natalie-jason" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -225,7 +195,7 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_statTools.testmedian2" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_statTools.testlowquart3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tdd-git-assignment-natalie-jason" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,11 +207,11 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_statTools.testmedian2&quot;" />
+      <option name="_new_target" value="&quot;test_statTools.testlowquart3&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_statTools.testmedian3" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_statTools.testlowquart4" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="tdd-git-assignment-natalie-jason" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -253,7 +223,39 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_statTools.testmedian3&quot;" />
+      <option name="_new_target" value="&quot;test_statTools.testlowquart4&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_statTools.testlowquart5" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tdd-git-assignment-natalie-jason" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_statTools.testlowquart5&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_statTools.testlowquart6" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="tdd-git-assignment-natalie-jason" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_statTools.testlowquart6&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
@@ -275,19 +277,19 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.test_statTools.py" />
-      <item itemvalue="Python tests.pytest for test_statTools.testmedian2" />
-      <item itemvalue="Python tests.pytest for test_statTools.testmedian3" />
-      <item itemvalue="Python.statTools" />
-      <item itemvalue="Python tests.pytest for test_statTools.testlowquart1" />
       <item itemvalue="Python tests.pytest for test_statTools.testlowquart2" />
+      <item itemvalue="Python tests.pytest for test_statTools.testlowquart3" />
+      <item itemvalue="Python tests.pytest for test_statTools.testlowquart4" />
+      <item itemvalue="Python tests.pytest for test_statTools.testlowquart5" />
+      <item itemvalue="Python tests.pytest for test_statTools.testlowquart6" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_statTools.testlowquart6" />
+        <item itemvalue="Python tests.pytest for test_statTools.testlowquart5" />
+        <item itemvalue="Python tests.pytest for test_statTools.testlowquart4" />
         <item itemvalue="Python tests.pytest for test_statTools.testlowquart2" />
-        <item itemvalue="Python tests.pytest for test_statTools.testlowquart1" />
-        <item itemvalue="Python tests.pytest for test_statTools.testmedian3" />
-        <item itemvalue="Python.statTools" />
-        <item itemvalue="Python tests.pytest for test_statTools.testmedian2" />
+        <item itemvalue="Python tests.pytest for test_statTools.testlowquart3" />
       </list>
     </recent_temporary>
   </component>
@@ -327,47 +329,46 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_statTools_testmedian3 - 2018.11.09 at 17h 09m 57s.xml">
-      <configuration name="pytest for test_statTools.testmedian3" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_testlowquart3 - 2018.11.09 at 19h 55m 26s.xml">
+      <configuration name="pytest for test_statTools.testlowquart3" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_testlowquart1 - 2018.11.09 at 18h 21m 48s.xml">
-      <configuration name="pytest for test_statTools.testlowquart1" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_statTools_testlowquart2 - 2018.11.09 at 18h 55m 35s.xml">
+    <history-entry file="pytest_for_test_statTools_testlowquart2 - 2018.11.09 at 19h 55m 34s.xml">
       <configuration name="pytest for test_statTools.testlowquart2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_testlowquart2 - 2018.11.09 at 18h 56m 21s.xml">
+    <history-entry file="pytest_for_test_statTools_testlowquart2 - 2018.11.09 at 19h 56m 12s.xml">
       <configuration name="pytest for test_statTools.testlowquart2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_testlowquart2 - 2018.11.09 at 18h 56m 36s.xml">
+    <history-entry file="pytest_for_test_statTools_testlowquart2 - 2018.11.09 at 19h 56m 26s.xml">
       <configuration name="pytest for test_statTools.testlowquart2" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_testlowquart2 - 2018.11.09 at 18h 57m 16s.xml">
-      <configuration name="pytest for test_statTools.testlowquart2" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_testlowquart4 - 2018.11.09 at 19h 57m 27s.xml">
+      <configuration name="pytest for test_statTools.testlowquart4" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_testlowquart2 - 2018.11.09 at 18h 57m 31s.xml">
-      <configuration name="pytest for test_statTools.testlowquart2" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_testlowquart5 - 2018.11.09 at 19h 59m 43s.xml">
+      <configuration name="pytest for test_statTools.testlowquart5" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_testlowquart2 - 2018.11.09 at 19h 47m 09s.xml">
-      <configuration name="pytest for test_statTools.testlowquart2" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_testlowquart5 - 2018.11.09 at 20h 05m 53s.xml">
+      <configuration name="pytest for test_statTools.testlowquart5" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_testlowquart1 - 2018.11.09 at 19h 47m 20s.xml">
-      <configuration name="pytest for test_statTools.testlowquart1" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_testlowquart6 - 2018.11.09 at 20h 06m 39s.xml">
+      <configuration name="pytest for test_statTools.testlowquart6" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_test_statTools_testlowquart2 - 2018.11.09 at 19h 50m 06s.xml">
-      <configuration name="pytest for test_statTools.testlowquart2" configurationId="tests" />
+    <history-entry file="pytest_for_test_statTools_testlowquart6 - 2018.11.09 at 20h 07m 23s.xml">
+      <configuration name="pytest for test_statTools.testlowquart6" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_statTools_testlowquart6 - 2018.11.09 at 20h 07m 31s.xml">
+      <configuration name="pytest for test_statTools.testlowquart6" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32961586" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32961586" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -376,7 +377,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26022306" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26022306" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -420,6 +421,17 @@
     <MESSAGE value="Basic case for mean test: no values in the list" />
     <option name="LAST_COMMIT_MESSAGE" value="Basic case for mean test: no values in the list" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/test_statTools.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -433,27 +445,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-10">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="306">
+          <caret line="44" column="26" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
           <folding>
-            <marker date="1541811006000" expanded="true" signature="17:18" ph="..." />
-            <marker date="1541811006000" expanded="true" signature="17:23" ph="..." />
-            <marker date="1541811006000" expanded="true" signature="190:195" ph="..." />
-            <marker date="1541811006000" expanded="true" signature="503:504" ph="..." />
+            <marker date="1541812051000" expanded="true" signature="17:18" ph="..." />
+            <marker date="1541812051000" expanded="true" signature="17:23" ph="..." />
+            <marker date="1541812051000" expanded="true" signature="190:195" ph="..." />
+            <marker date="1541812051000" expanded="true" signature="503:504" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test_statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="26" column="34" selection-start-line="26" selection-start-column="34" selection-end-line="26" selection-end-column="34" />
+        <state relative-caret-position="430">
+          <caret line="38" column="36" selection-start-line="38" selection-start-column="36" selection-end-line="38" selection-end-column="36" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
-            <marker date="1541811072000" expanded="true" signature="209:210" ph="..." />
-            <marker date="1541811072000" expanded="true" signature="280:285" ph="..." />
-            <marker date="1541811072000" expanded="true" signature="397:402" ph="..." />
-            <marker date="1541811072000" expanded="true" signature="457:462" ph="..." />
+            <marker date="1541811998000" expanded="true" signature="209:210" ph="..." />
+            <marker date="1541811998000" expanded="true" signature="280:285" ph="..." />
+            <marker date="1541811998000" expanded="true" signature="397:402" ph="..." />
+            <marker date="1541811998000" expanded="true" signature="457:462" ph="..." />
+            <marker date="1541811998000" expanded="true" signature="531:536" ph="..." />
+            <marker date="1541811998000" expanded="true" signature="609:614" ph="..." />
+            <marker date="1541811998000" expanded="true" signature="702:707" ph="..." />
+            <marker date="1541811998000" expanded="true" signature="800:805" ph="..." />
           </folding>
         </state>
       </provider>

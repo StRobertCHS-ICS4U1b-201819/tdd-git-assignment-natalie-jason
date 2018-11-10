@@ -31,8 +31,7 @@ def lower_quartile(myList):
 
     myList.sort()
     first = 0
-    last = len(myList) - 1
-    mid = (first + last) //2
+    mid = (first + (len(myList) - 1)) //2
     median = 0.0
 
     newList = []
@@ -43,12 +42,14 @@ def lower_quartile(myList):
     if len(myList) == 0:
         return -1
 
-    elif(len(myList)% 2 == 0):
-        median = (newList[newMed] + newList[newMed + 1]) /2.0
+    elif len(myList) == 4:
+        return myList[0]
+
+    elif len(myList)% 2 == 0:
+        median = (newList[newMed] + newList[newMed + 1]) / 2.0
         return median
 
-
     else:
-        median = (newList[newMed + 1])
+        median = (newList[newMed])
         return median
 
