@@ -10,6 +10,12 @@ Created: 11/09/2018
 """
 
 def range(rangeList):
+    ''' Given a list, returns the range of the list
+
+    :param rangeList: list of numbers
+    :return: Range of the list
+    '''
+
     if len(rangeList) == 0:
         raise ValueError("No Data Provided")
     try:
