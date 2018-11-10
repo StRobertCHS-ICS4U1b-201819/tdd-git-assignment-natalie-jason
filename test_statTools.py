@@ -45,14 +45,11 @@ def testhighquart2 ():
     assert(upper_quartile([1,2,6,7]) == 6)
 
 def testhighquart3 ():
-    print(upper_quartile([34, 47, 1, 15, 57, 24, 20, 11, 19, 50, 28, 37, 44]))
+    assert(upper_quartile([34, 47, 1, 15, 57, 24, 20, 11, 19, 50, 28, 37, 44]) == 44)
 
 def testhighquart4 ():
-    print(upper_quartile([1, 5, 7, 9, 23, 25, 27]))
+    assert(upper_quartile([2, 4, 4, 5, 6, 7, 8]) == 7)
 
 def testhighquart5 ():
-    print(upper_quartile([2, 4, 4, 5, 6, 7, 8]))
+    assert(upper_quartile([2, 5, 5, 6, 7, 7, 8, 9]) == 7.5)
 
-
-def testhighlaj ():
-    print(sort([34, 47, 1, 15, 57, 24, 20, 11, 19, 50, 28, 37, 44]))
