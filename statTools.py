@@ -23,11 +23,10 @@ def median(myList):
         return float(median)
 
 def lower_quartile(myList):
-    '''
-    sort list
-    find the median,name that mid 1 
-    find median of lower list
-    '''
+    # sort list
+    # find the median,name that mid
+    # find median of lower list
+
 
     myList.sort()
     first = 0
@@ -45,7 +44,7 @@ def lower_quartile(myList):
     elif len(myList) == 4:
         return myList[0]
 
-    elif len(myList)% 2 == 0:
+    elif len(myList) % 2 == 0:
         median = (newList[newMed] + newList[newMed + 1]) / 2.0
         return median
 
@@ -53,3 +52,8 @@ def lower_quartile(myList):
         median = (newList[newMed])
         return median
 
+def upper_quartile (myList):
+    myList.sort
+
+    if len(myList) == 0:
+        return -1
