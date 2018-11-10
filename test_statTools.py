@@ -24,19 +24,29 @@ def testlowquart1 ():
     assert(lower_quartile([]) == -1)
 
 def testlowquart2 ():
-    assert(lower_quartile([6, 12, 15, 43, 47, 49]))
+    assert(lower_quartile([6, 12, 15, 43, 47, 49]) == 9)
 
 def testlowquart3 ():
-    assert(lower_quartile([5, 15, 23, 25, 27, 28, 40]))
+    assert(lower_quartile([5, 15, 23, 25, 27, 28, 40]) == 15)
 
 def testlowquart4 ():
-    assert(lower_quartile([6, 47, 49, 15, 43, 41, 7, 39, 43, 41, 36]))
+    assert(lower_quartile([6, 47, 49, 15, 43, 41, 7, 39, 43, 41, 36]) == 15)
 
 def testlowquart5 ():
-    assert(lower_quartile([34, 47, 1, 15, 57, 24, 20, 11, 19, 50, 28, 37]))
+    assert(lower_quartile([34, 47, 1, 15, 57, 24, 20, 11, 19, 50, 28, 37]) == 17)
 
 def testlowquart6 ():
-    assert(lower_quartile([1, 2, 5, 8]))
+    assert(lower_quartile([1, 2, 5, 8]) == 2)
 
 def testhighquart1 ():
     assert(upper_quartile([]))
+
+def testhighquart2 ():
+    assert(upper_quartile([1,2,6,7]) == 6)
+
+def testhighquart3 ():
+    print(upper_quartile([34, 47, 1, 15, 57, 24, 20, 11, 19, 50, 28, 37, 44]))
+
+
+def testhighlaj ():
+    print(sort([34, 47, 1, 15, 57, 24, 20, 11, 19, 50, 28, 37, 44]))

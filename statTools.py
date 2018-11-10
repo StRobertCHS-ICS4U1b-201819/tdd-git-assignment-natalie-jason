@@ -53,7 +53,7 @@ def lower_quartile(myList):
         return median
 
 def upper_quartile (myList):
-    myList.sort
+    myList.sort()
 
     #create length of list, find median
     # find median [mid:}
@@ -79,6 +79,9 @@ def upper_quartile (myList):
         median = (mid + (len(newList) - 1)) // 2
         return median
 
+def sort(myList):
+    myList.sort()
+    return myList
 
 
 
