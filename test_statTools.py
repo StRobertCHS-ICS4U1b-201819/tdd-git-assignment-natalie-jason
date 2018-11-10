@@ -22,3 +22,6 @@ def testmedian3 ():
 
 def testlowquart1 ():
     assert(lower_quartile([]) == -1)
+
+def testlowquart2 ():
+    print(lower_quartile([6, 47, 49, 15, 43, 12]))

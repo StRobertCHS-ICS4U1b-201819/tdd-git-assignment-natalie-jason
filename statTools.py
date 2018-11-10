@@ -35,5 +35,20 @@ def lower_quartile(myList):
     mid = (first + last) //2
     median = 0.0
 
+    newList = []
+    newList = myList[:mid]
+    lastNew = len(newList) - 1
+    newMed = (first + lastNew) // 2
+
     if len(myList) == 0:
         return -1
+
+    elif(len(myList)% 2 == 0):
+        median = (newList[newMed] + newList[newMed + 1]) /2.0
+        return median
+
+
+    else:
+        median = (newList[newMed + 1])
+        return median
+
