@@ -1,3 +1,14 @@
+"""
+------------------------------------------------------------------------------------------------------------------------
+Name: test_statTools.py
+Purpose:
+    Test the functionality of the functions calculating the central tendencies and spread of a set of numerical data
+    - mean, median, mode, range, upper quartile, lower quartile, variance, standard deviation
+Authors: Ng.J
+Created: 09/11/2018
+------------------------------------------------------------------------------------------------------------------------
+"""
+
 import pytest
 from statTools import *
 
@@ -66,5 +77,5 @@ def test_mode2():
 def test_mode3():
     assert(mode([15, 763, 34, 2, 62, 73, 245, 763]) == 763)
 
-def test_mode2():
+def test_mode4():
     assert(mode([0]) == 0)
