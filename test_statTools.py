@@ -39,3 +39,18 @@ def test_standard_deviation3():
 
 def test_standard_deviation4():
     assert(standardDeviation([]) == None)
+
+# Test Variance
+
+def test_variance1():
+    assert(variance([1, 2, 3, 4, 5, 6, 7, 8,9]) == 6.0000)
+
+def test_variance2():
+    assert(variance([0]) == 0)
+
+def test_variance3():
+    assert(variance([14, 72, 25, 73, 84, 34, 74, 16]) == 758.0000)
+
+def test_variance4():
+    assert(variance([]) == None)
+

@@ -77,3 +77,10 @@ def standardDeviation(myList):
         for items in myList:
             total += (avg - items) * (avg - items)
         return round(math.sqrt(total / len(myList)), 4)
+
+def variance(myList):
+    if len(myList) == 0:
+        return None
+
+
+
