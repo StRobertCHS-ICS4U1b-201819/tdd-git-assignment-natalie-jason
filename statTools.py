@@ -1,3 +1,15 @@
+"""
+-------------------------------------------------------------------------------
+Name:		mean.py
+Purpose:
+To return the mean/average of the list of numbers to the user
+
+Author:		Tam.N
+
+Created:		08/11/2018
+------------------------------------------------------------------------------
+"""
+
 def mean(myList):
 
     if(len(myList) < 1 ):
