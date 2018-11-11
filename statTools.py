@@ -12,9 +12,17 @@ Created:		08/11/2018
 
 
 def mean(myList):
+    """ Calculate the mean value from a set of numbers.
+       :param myList: (list) The list of numbers
+       :return: (float) The mean value of the numbers in the list
+
+    """
+
 
     if len(myList) < 1:
         return -1
+
+
     else:
         total = float(sum(myList))
         avg = total/len(myList)
@@ -35,6 +43,12 @@ Created:		09/11/2018
 
 
 def median(myList):
+
+    """ Finds the median from a list of numbers
+       :param myList: (list) List of numbers
+       :return: (float) The median value from the list of numbers
+    """
+
     myList.sort()
     first = 0
     last = len(myList) - 1
@@ -52,10 +66,9 @@ def median(myList):
 
 """
 -------------------------------------------------------------------------------
-Name:		<filename>.py
+Name:		lower_quartile.py
 Purpose:		
-<a description of your program>
-
+To find the lower quartile value from a list of numbers
 Author:		Tam.N
 
 Created:		09/11/2018
@@ -64,9 +77,11 @@ Created:		09/11/2018
 
 
 def lower_quartile(myList):
-    # sort list
-    # find the median,name that mid
-    # find median of lower list
+    """ To determine the lower quartile value from a list of numbers
+       :param myList: (list) The numbers in a list
+       :return: (float) The lower quartile value from a list of numbers, the median
+       of the lower half set of the data set
+    """
 
     myList.sort()
     first = 0
@@ -95,18 +110,23 @@ def lower_quartile(myList):
 
 """
 -------------------------------------------------------------------------------
-Name:		<filename>.py
+Name:		upper_quartile.py
 Purpose:		
-<a description of your program>
-
+To find the upper quartile value from a list of numbers
 Author:		Tam.N
 
-Created:		09/11/2018
+Created:		10/11/2018
 ------------------------------------------------------------------------------
 """
 
 
 def upper_quartile (myList):
+    """ To determine the upper quartile value from a list of numbers
+       :param myList: (list) The numbers in a list
+       :return: (float) The higher quartile value from a list of numbers, the median
+       of the upper half set of the data set
+    """
+
     myList.sort()
 
     first = 0
