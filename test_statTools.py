@@ -27,11 +27,15 @@ def test_range_3():
 
 # Test Standard Deviation Function
 
+
 def test_standard_deviation1():
-    assert(standardDeviation(1,2,3,4,5,6,7,8,9) == 2.2913)
+    assert(standardDeviation([1, 2, 3, 4, 5, 6, 7, 8,9]) == 2.4495)
 
 def test_standard_deviation2():
     assert(standardDeviation([0]) == 0)
 
 def test_standard_deviation3():
-    assert(standardDeviation([14,72,25,73,84,34,74,16]) == 27.5454)
+    assert(standardDeviation([14, 72, 25, 73, 84, 34, 74, 16]) == 27.5318)
+
+def test_standard_deviation4():
+    assert(standardDeviation([]) == None)

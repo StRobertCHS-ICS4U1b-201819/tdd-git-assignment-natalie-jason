@@ -51,21 +51,17 @@ def range(rangeList):
     except TypeError:
         raise TypeError("Invalid List Provided")
 
+
 def standardDeviation(myList):
     if len(myList) == 0:
-        return 0
+        return None
+
+    if type(myList) != list:
+        raise TypeError("input must be a list")
+
     else:
-        try:
-            # find the length of the list
-            length = len(myList)
-
-            m = mean(myList)
-
-            total_sum = 0
-
-            for i in range(length):
-                total_sum += (myList[i]-m)**2
-
-            return round(math.sqrt(total_sum / length),4)
-        except TypeError:
-            raise TypeError("Invalid List Provided")
+        avg = sum(myList) / len(myList)
+        total = 0
+        for items in myList:
+            total += (avg - items) * (avg - items)
+        return round(math.sqrt(total / len(myList)), 4)
