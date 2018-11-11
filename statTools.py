@@ -102,3 +102,13 @@ def variance(myList):
         return round((total / len(myList)), 4)
 
 def mode(myList):
+    '''Given a list of numbers, return the mode of that list
+
+    :param myList: list of numbers
+    :return: mode of a list of numbers
+    '''
+
+    #
+    if len(myList) == 0:
+        return None
+
