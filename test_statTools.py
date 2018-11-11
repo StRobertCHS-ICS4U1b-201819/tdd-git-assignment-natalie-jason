@@ -65,7 +65,7 @@ def testmedian5 ():
         median("Hello")
     assert ("Invalid input of a list" == str(datamsg.value))
 
-    # Test Higher Quartile Function
+    # Test Lower Quartile Function
 # Basic Test Case #1: Illegal Case - No values in list
 
 
@@ -77,7 +77,7 @@ def testlowquart1 ():
 
 def testlowquart2 ():
     with pytest.raises(TypeError) as datamsg:
-        median("23")
+        lower_quartile("23")
     assert ("Invalid input of a list" == str(datamsg.value))
 
 # Basic Test Case #3 : Just Pass
@@ -86,34 +86,50 @@ def testlowquart2 ():
 def testlowquart3 ():
     assert(lower_quartile([5, 15, 23, 25, 27, 28, 40]) == 15)
 
-# Basic Test Case #4 : Just Pass
+# Basic Test Case #4 : Exhaustive Case
 
 
 def testlowquart4 ():
     assert(lower_quartile([6, 47, 49, 15, 43, 41, 7, 39, 43, 41, 36]) == 15)
 
+# Basic Test Case #5 : Corner Case
 
 def testlowquart5 ():
     assert(lower_quartile([1, 2, 5, 8]) == 2)
 
-    # test cases for higher quartile function
-    # test for illegal case
+    # Test Higher Quartile Function
+# Basic Test Case #1 : Illegal Case - No Values
+
+
 def testhighquart1 ():
     assert(upper_quartile([]) == -1)
 
-def testhighquart2 ():
-    assert(upper_quartile([1,2,6,7]) == 6)
+# Basic Test Case #2 : Illegal Case - No Values
 
-# sorted list is [1, 11, 15, 19, 20, 24, 28, 34, 37, 44, 47, 50, 57]
+
+def testhighquart2 ():
+    with pytest.raises(TypeError) as datamsg:
+        upper_quartile("23")
+    assert ("Invalid input of a list" == str(datamsg.value))
+
+# Basic Test Case #3 : Corner Case
+
+
 def testhighquart3 ():
-    assert(upper_quartile([34, 47, 1, 15, 57, 24, 20, 11, 19, 50, 28, 37, 44]) == 44)
+    assert(upper_quartile([1, 2, 6, 7]) == 6)
+
+# Basic Test Case #4 : Exhaustive Case
+# sorted list is [1, 11, 15, 19, 20, 24, 28, 34, 37, 44, 47, 50, 57]
+
 
 def testhighquart4 ():
-    assert(upper_quartile([2, 4, 4, 5, 6, 7, 8]) == 7)
+    assert(upper_quartile([34, 47, 1, 15, 99, 24, 20, 11, 19, 50, 28, 37, 44]) == 44)
+
+# Basic Test Case #5 : Exhaustive Case 2
 
 def testhighquart5 ():
+
+
     assert(upper_quartile([2, 5, 5, 6, 7, 7, 8, 9]) == 7.5)
 
-def testdkjkd ():
-    print(sorted([34, 47, 1, 15, 57, 24, 20, 11, 19, 50, 28, 37, 44]))
 
