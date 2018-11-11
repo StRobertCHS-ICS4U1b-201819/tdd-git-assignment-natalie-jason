@@ -23,6 +23,9 @@ def mean(myList):
     if len(myList) < 1:
         return -1
 
+    elif type(myList) != list:
+        raise TypeError("Invalid input of a list")
+
     else:
         # Find float value of sum of list
         total = float(sum(myList))

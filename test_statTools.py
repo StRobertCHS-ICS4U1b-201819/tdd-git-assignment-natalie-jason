@@ -3,15 +3,22 @@ import math
 from statTools import *
 
     # Test Mean Function
-    # Basic Test Case #1: Illegal Case
+    # Basic Test Case #1: Just pass
 def testmean1 ():
-    assert(mean([]) == -1)
-
-def testmean2 ():
     assert(mean([0, 9, 3]) == 4)
+
+    # Basic Test Case #2 : Illegal Case
+def testmean2 ():
+    assert(mean([]) == -1)
 
 def testmean3 ():
     assert(mean([1,4,5,8,6, 11]) == 5.833)
+
+def testmean4 ():
+    with pytest.raises(TypeError) as datamsg:
+        mean("Hello")
+    assert ("Invalid input of a list" == str(datamsg.value))
+
 
     # Test Median Function
     # Basic Test Case #1: Illegal Case
