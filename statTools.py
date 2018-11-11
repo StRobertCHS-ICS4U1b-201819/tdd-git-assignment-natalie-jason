@@ -9,6 +9,8 @@ Created: 11/09/2018
 ------------------------------------------------------------------------------------------------------------------------
 """
 
+import math
+
 def mean(myList):
     """ Calculate the mean value from a set of numbers.
        :param myList: (list) The list of numbers
@@ -49,4 +51,15 @@ def range(rangeList):
     except TypeError:
         raise TypeError("Invalid List Provided")
 
-#def standardDeviation(stdDevList):
+def standardDeviation(myList):
+    if len(myList) < 1:
+        raise ValueError("No Data Provided")
+    else:
+        try:
+            # find the length of the list
+            length = len(myList)
+
+
+
+
+
