@@ -18,14 +18,17 @@ def mean(myList):
 
     """
 
+    # Check if there are numbers in the list, return -1 if there are none
 
     if len(myList) < 1:
         return -1
 
-
     else:
+        # Find float value of sum of list
         total = float(sum(myList))
+        # Find average
         avg = total/len(myList)
+        # Round average to 3 decimal places
         return round(avg, 3)
 
 
@@ -49,16 +52,20 @@ def median(myList):
        :return: (float) The median value from the list of numbers
     """
 
+    # Sort list from smallest to largest
     myList.sort()
     first = 0
     last = len(myList) - 1
+    # Find median position
     mid = (first + last) // 2
     median = 0.0
 
+    # Case where this is only 1 median
     if len(myList) % 2 == 0:
         median = (myList[mid] + myList[mid + 1]) / 2.0
         return median
 
+    #Case where there are 2 medians, and an average must be calculated
     else:
         median = (myList[mid])
         return float(median)
@@ -82,27 +89,32 @@ def lower_quartile(myList):
        :return: (float) The lower quartile value from a list of numbers, the median
        of the lower half set of the data set
     """
-
+    # Sort list from smallest to largest
     myList.sort()
     first = 0
+    # Find position of the middle of the list
     mid = (first + (len(myList) - 1)) // 2
     median = 0.0
 
-    newList = []
+    # Create lower half set of the data set
     newList = myList[:mid]
     lastNew = len(newList) - 1
     newMed = (first + lastNew) // 2
 
-    if len(myList) == 0:
+    # Handling case with less than 4 values
+    if len(myList) < 4:
         return -1
 
+    #Case where there are only 4 values
     elif len(myList) == 4:
         return myList[0]
 
+    #Case for even list
     elif len(myList) % 2 == 0:
         median = (newList[newMed] + newList[newMed + 1]) / 2.0
         return median
 
+    #Case for odd list
     else:
         median = (newList[newMed])
         return median
@@ -126,7 +138,7 @@ def upper_quartile (myList):
        :return: (float) The higher quartile value from a list of numbers, the median
        of the upper half set of the data set
     """
-
+    # Sort list from smallest to largest value
     myList.sort()
 
     first = 0
@@ -134,16 +146,19 @@ def upper_quartile (myList):
     newList = myList[mid:]
     median = 0.0
 
-    if len(myList) == 0:
+    # Handling case when there are less than 4 values, return -1
+    if len(myList) < 4:
         return -1
-
+    # Handling case when there are 4 values, return the 3rd number in the list
     elif len(myList) == 4:
         return myList[2]
 
+    # Handling case when there are an even amount of values in the list
     elif len(myList) % 2 == 0:
         median = (newList[(first + len(newList)) // 2] + newList[((first + len(newList)) // 2) + 1]) / 2.0
         return median
 
+    # Handling case when there are an odd number of values in the list
     else:
         median = newList[(first + len(newList)) // 2]
         return median
