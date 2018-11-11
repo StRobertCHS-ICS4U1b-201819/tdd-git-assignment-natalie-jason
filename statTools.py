@@ -79,8 +79,22 @@ def standardDeviation(myList):
         return round(math.sqrt(total / len(myList)), 4)
 
 def variance(myList):
+    '''Given a list of numbers, return the variance of that list
+
+    :param myList: list of numbers
+    :return: variance of a list of numbers
+    '''
+
     if len(myList) == 0:
         return None
 
+    if type(myList) != list:
+        raise TypeError("input must be a list")
 
+    else:
+        avg = sum(myList) / len(myList)
+        total = 0
+        for items in myList:
+            total += (avg - items) * (avg - items)
+        return round((total / len(myList)), 4)
 
