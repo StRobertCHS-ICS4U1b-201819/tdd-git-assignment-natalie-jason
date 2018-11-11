@@ -52,14 +52,20 @@ def range(rangeList):
         raise TypeError("Invalid List Provided")
 
 def standardDeviation(myList):
-    if len(myList) < 1:
-        raise ValueError("No Data Provided")
+    if len(myList) == 0:
+        return 0
     else:
         try:
             # find the length of the list
             length = len(myList)
 
+            m = mean(myList)
 
+            total_sum = 0
 
+            for i in range(length):
+                total_sum += (myList[i]-m)**2
 
-
+            return round(math.sqrt(total_sum / length),4)
+        except TypeError:
+            raise TypeError("Invalid List Provided")
