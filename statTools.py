@@ -108,7 +108,10 @@ def mode(myList):
     :return: mode of a list of numbers
     '''
 
-    #
+    # If the list doesn't have any numbers, returns none
     if len(myList) == 0:
         return None
 
+    # Counts the number of times a value appears in a list and returns the most common value
+    mode = max(set(myList), key=myList.count)
+    return mode
