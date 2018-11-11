@@ -2,7 +2,7 @@
 -------------------------------------------------------------------------------
 Name:		mean.py
 Purpose:
-To return the mean/average of the list of numbers to the user
+To return the mean/average of the list of numbers back to the user
 
 Author:		Tam.N
 
@@ -10,14 +10,29 @@ Created:		08/11/2018
 ------------------------------------------------------------------------------
 """
 
+
 def mean(myList):
 
-    if(len(myList) < 1 ):
+    if len(myList) < 1:
         return -1
     else:
         total = float(sum(myList))
         avg = total/len(myList)
-        return (round(avg,3))
+        return round(avg, 3)
+
+
+"""
+-------------------------------------------------------------------------------
+Name:		median.py
+Purpose:		
+To return the median of a list of numbers back to the user
+
+Author:		Tam.N
+
+Created:		09/11/2018
+------------------------------------------------------------------------------
+"""
+
 
 def median(myList):
     myList.sort()
@@ -34,11 +49,24 @@ def median(myList):
         median = (myList[mid])
         return float(median)
 
+
+"""
+-------------------------------------------------------------------------------
+Name:		<filename>.py
+Purpose:		
+<a description of your program>
+
+Author:		Tam.N
+
+Created:		09/11/2018
+------------------------------------------------------------------------------
+"""
+
+
 def lower_quartile(myList):
     # sort list
     # find the median,name that mid
     # find median of lower list
-
 
     myList.sort()
     first = 0
@@ -63,6 +91,20 @@ def lower_quartile(myList):
     else:
         median = (newList[newMed])
         return median
+
+
+"""
+-------------------------------------------------------------------------------
+Name:		<filename>.py
+Purpose:		
+<a description of your program>
+
+Author:		Tam.N
+
+Created:		09/11/2018
+------------------------------------------------------------------------------
+"""
+
 
 def upper_quartile (myList):
     myList.sort()
