@@ -54,3 +54,8 @@ def test_variance3():
 def test_variance4():
     assert(variance([]) == None)
 
+
+# Test Mode
+
+def test_mode1():
+    assert(mode([1, 2, 4, 5, 4, 6, 5, 6, 2, 5, 6, 3, 6]) == 6)

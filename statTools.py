@@ -3,9 +3,9 @@
 Name: statTools.py
 Purpose:
     Collection of functions calculating the central tendencies and spread of a set of numerical data
-    - mean, median, mode - range, upper quartile, lower quartile, variance, standard deviation
-Authors: Ng.J, Tam.N
-Created: 11/09/2018
+    - mean, median, mode, range, upper quartile, lower quartile, variance, standard deviation
+Authors: Ng.J
+Created: 09/11/2018
 ------------------------------------------------------------------------------------------------------------------------
 """
 
@@ -101,3 +101,4 @@ def variance(myList):
             total += (avg - items) * (avg - items)
         return round((total / len(myList)), 4)
 
+def mode(myList):
