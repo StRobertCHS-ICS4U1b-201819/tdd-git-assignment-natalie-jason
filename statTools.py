@@ -23,6 +23,8 @@ def mean(myList):
     if len(myList) < 1:
         return -1
 
+    # Raises an error if the input is not a list
+
     elif type(myList) != list:
         raise TypeError("Invalid input of a list")
 
@@ -55,7 +57,7 @@ def median(myList):
        :return: (float) The median value from the list of numbers
     """
 
-    # Case where the input is not a list
+    # Raises an error if the input is not a list
     if type(myList) != list:
         raise TypeError("Invalid input of a list")
 
@@ -71,6 +73,7 @@ def median(myList):
     if len(myList) % 2 == 0:
         median = (myList[mid] + myList[mid + 1]) / 2.0
         return median
+
     # Case where there are 2 medians, and an average must be calculated
     else:
         median = (myList[mid])
@@ -96,7 +99,7 @@ def lower_quartile(myList):
        of the lower half set of the data set
     """
 
-    # Case where the input is not a list
+    # Raises an error if the input is not a list
     if type(myList) != list:
         raise TypeError("Invalid input of a list")
 
@@ -149,9 +152,16 @@ def upper_quartile (myList):
        :return: (float) The higher quartile value from a list of numbers, the median
        of the upper half set of the data set
     """
+
+    # Raises an error if the input is not a list
+
+    if type(myList) != list:
+        raise TypeError("Invalid input of a list")
+
     # Sort list from smallest to largest value
     myList.sort()
 
+    # Create variables for positions in the list
     first = 0
     mid = (first + (len(myList) - 1)) // 2
     newList = myList[mid:]
@@ -160,10 +170,6 @@ def upper_quartile (myList):
     # Handling case when there are less than 4 values, return -1
     if len(myList) < 4:
         return -1
-
-    # Case where the input is not a list
-    elif type(myList) != list:
-        raise TypeError("Invalid input of a list")
 
     # Handling case when there are 4 values, return the 3rd number in the list
     elif len(myList) == 4:
@@ -178,7 +184,3 @@ def upper_quartile (myList):
     else:
         median = newList[(first + len(newList)) // 2]
         return median
-
-def sorted(myList):
-    myList.sort()
-    return myList
