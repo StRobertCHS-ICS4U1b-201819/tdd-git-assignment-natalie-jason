@@ -2,43 +2,81 @@ import pytest
 import math
 from statTools import *
 
-    # Test Mean Function
-    # Basic Test Case #1: Just pass
-def testmean1 ():
+# Test Mean Function
+# Basic Test Case #1: Just pass
+
+
+def testmean1():
     assert(mean([0, 9, 3]) == 4)
 
-    # Basic Test Case #2 : Illegal Case
+# Basic Test Case #2: Decimal value
+
+
 def testmean2 ():
-    assert(mean([]) == -1)
+    assert (mean([2, 6.5, -7.3, 23, -1.2, 8.6, -3]) == 4.086)
+
+# Basic Test Case #3 : Illegal Case
+
 
 def testmean3 ():
-    assert(mean([1,4,5,8,6, 11]) == 5.833)
+    assert(mean([]) == -1)
+
+# Basic Test Case #4 : Wrong data type
+
 
 def testmean4 ():
     with pytest.raises(TypeError) as datamsg:
         mean("Hello")
     assert ("Invalid input of a list" == str(datamsg.value))
 
+# Basic Test #5 : Corner Case
+def testmean5 ():
+    assert (mean([6.8]) == 6.8)
 
     # Test Median Function
-    # Basic Test Case #1: Illegal Case
+# Basic Test Case #1: Illegal Case
+
+
 def testmedian1 ():
     assert(median([]) == -1)
+
+# Basic Test Case #2: Just pass
+
 
 def testmedian2 ():
     assert(median([1,4,5]) == 4)
 
+# Basic Test Case #3: Decimal value/ Exhaustive Case
+
+
 def testmedian3 ():
-    assert(median([1, 6, 7, 9]) == 6.5)
+    assert(median([1, 6, 7, 9, 34, 23, 67, 96, 45, 23, 78, 334]) == 28.5)
+
+# Basic Test Case #4: Corner Case
+
+def testmedian4 ():
+    assert (median([5.4]) == 5.4)
+
+# Basic Test Case #5 : Wrong data type
+
+
+def testmedian5 ():
+    with pytest.raises(TypeError) as datamsg:
+        median("Hello")
+    assert ("Invalid input of a list" == str(datamsg.value))
 
     # Test Higher Quartile Function
-    # test for illegal case
+# Basic Test Case #1: No values in list
 def testlowquart1 ():
     assert(lower_quartile([]) == -1)
 
+    # Basic Test Case #2 : Wrong data type
 def testlowquart2 ():
-    assert(lower_quartile([6, 12, 15, 43, 47, 49]) == 9)
+    with pytest.raises(TypeError) as datamsg:
+        median("23")
+    assert ("Invalid input of a list" == str(datamsg.value))
 
+    #
 def testlowquart3 ():
     assert(lower_quartile([5, 15, 23, 25, 27, 28, 40]) == 15)
 
