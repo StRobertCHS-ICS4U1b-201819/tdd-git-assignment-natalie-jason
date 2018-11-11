@@ -66,27 +66,34 @@ def testmedian5 ():
     assert ("Invalid input of a list" == str(datamsg.value))
 
     # Test Higher Quartile Function
-# Basic Test Case #1: No values in list
+# Basic Test Case #1: Illegal Case - No values in list
+
+
 def testlowquart1 ():
     assert(lower_quartile([]) == -1)
 
-    # Basic Test Case #2 : Wrong data type
+# Basic Test Case #2 : Illegal Case - Wrong data type
+
+
 def testlowquart2 ():
     with pytest.raises(TypeError) as datamsg:
         median("23")
     assert ("Invalid input of a list" == str(datamsg.value))
 
-    #
+# Basic Test Case #3 : Just Pass
+
+
 def testlowquart3 ():
     assert(lower_quartile([5, 15, 23, 25, 27, 28, 40]) == 15)
+
+# Basic Test Case #4 : Just Pass
+
 
 def testlowquart4 ():
     assert(lower_quartile([6, 47, 49, 15, 43, 41, 7, 39, 43, 41, 36]) == 15)
 
-def testlowquart5 ():
-    assert(lower_quartile([34, 47, 1, 15, 57, 24, 20, 11, 19, 50, 28, 37]) == 17)
 
-def testlowquart6 ():
+def testlowquart5 ():
     assert(lower_quartile([1, 2, 5, 8]) == 2)
 
     # test cases for higher quartile function
