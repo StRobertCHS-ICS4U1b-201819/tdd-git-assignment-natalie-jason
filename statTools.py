@@ -85,12 +85,15 @@ def variance(myList):
     :return: variance of a list of numbers
     '''
 
+    # If there aren't any numbers in the list, return None
     if len(myList) == 0:
         return None
 
+    # If the "list" given is not a list, raise a type error
     if type(myList) != list:
         raise TypeError("input must be a list")
 
+    # If the list of numbers is a normal list or numbers, run the code to correctly calculate the variance
     else:
         avg = sum(myList) / len(myList)
         total = 0
