@@ -23,10 +23,13 @@ def mean(myList):
         return -1
 
     else:
+
         # Find float value of sum of list
         total = float(sum(myList))
+
         # Find average
         avg = total/len(myList)
+
         # Round average to 3 decimal places
         return round(avg, 3)
 
@@ -53,6 +56,12 @@ def range(rangeList):
 
 
 def standardDeviation(myList):
+    '''Given a list of numbers, return the standard deviation of that list
+
+    :param myList: list of numbers
+    :return: returns the standard deviation of a list of numbers
+    '''
+
     if len(myList) == 0:
         return None
 
