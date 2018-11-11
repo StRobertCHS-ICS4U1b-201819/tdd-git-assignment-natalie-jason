@@ -9,6 +9,25 @@ Created: 11/09/2018
 ------------------------------------------------------------------------------------------------------------------------
 """
 
+def mean(myList):
+    """ Calculate the mean value from a set of numbers.
+       :param myList: (list) The list of numbers
+       :return: (float) The mean value of the numbers in the list
+    """
+
+    # Check if there are numbers in the list, return -1 if there are none
+
+    if len(myList) < 1:
+        return -1
+
+    else:
+        # Find float value of sum of list
+        total = float(sum(myList))
+        # Find average
+        avg = total/len(myList)
+        # Round average to 3 decimal places
+        return round(avg, 3)
+
 def range(rangeList):
     ''' Given a list, returns the range of the list
 
@@ -29,3 +48,5 @@ def range(rangeList):
     # excepts error in an invalid list is given
     except TypeError:
         raise TypeError("Invalid List Provided")
+
+#def standardDeviation(stdDevList):
