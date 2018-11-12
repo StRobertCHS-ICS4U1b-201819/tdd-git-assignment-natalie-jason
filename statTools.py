@@ -1,4 +1,16 @@
 """
+------------------------------------------------------------------------------------------------------------------------
+Name: statTools.py
+Purpose:
+    Collection of functions calculating the central tendencies and spread of a set of numerical data
+    - mean, median, mode, range, upper quartile, lower quartile, variance, standard deviation
+Authors: Ng.J, N. Tam
+Created: 09/11/2018
+------------------------------------------------------------------------------------------------------------------------
+"""
+
+
+"""
 -------------------------------------------------------------------------------
 Name:		mean.py
 Purpose:
@@ -10,6 +22,7 @@ Created:		08/11/2018
 ------------------------------------------------------------------------------
 """
 
+import math
 
 def mean(myList):
     """ Calculate the mean value from a set of numbers.
@@ -78,6 +91,42 @@ def median(myList):
     else:
         median = (myList[mid])
         return float(median)
+
+def mode(myList):
+    '''Given a list of numbers, return the mode of that list
+
+    :param myList: list of numbers
+    :return: mode of a list of numbers
+    '''
+
+    # If the list doesn't have any numbers, returns none
+    if len(myList) == 0:
+        return None
+
+    # Counts the number of times a value appears in a list and returns the most common value
+    mode = max(set(myList), key=myList.count)
+    return mode
+
+def range(rangeList):
+    ''' Given a list, returns the range of the list
+
+    :param rangeList: list of numbers
+    :return: Range of the list
+    '''
+
+    # raises an error if the list doesn't have any values
+    if len(rangeList) == 0:
+        raise ValueError("No Data Provided")
+
+    # sorts the list in order of increasing value, find range by subtracting the last value to the first value (larges # - smallest #)
+    try:
+        rangeList.sort()
+        realRange = rangeList[len(rangeList) - 1] - rangeList[0]
+        return round(realRange, 2)
+
+    # excepts error in an invalid list is given
+    except TypeError:
+        raise TypeError("Invalid List Provided")
 
 
 """
@@ -184,3 +233,49 @@ def upper_quartile (myList):
     else:
         median = newList[(first + len(newList)) // 2]
         return median
+
+def variance(myList):
+    '''Given a list of numbers, return the variance of that list
+
+    :param myList: list of numbers
+    :return: variance of a list of numbers
+    '''
+
+    # If there aren't any numbers in the list, return None
+    if len(myList) == 0:
+        return None
+
+    # If the "list" given is not a list, raise a type error
+    if type(myList) != list:
+        raise TypeError("input must be a list")
+
+    # If the list of numbers is a normal list or numbers, run the code to correctly calculate the variance
+    else:
+        avg = sum(myList) / len(myList)
+        total = 0
+        for items in myList:
+            total += (avg - items) * (avg - items)
+        return round((total / len(myList)), 4)
+
+def standardDeviation(myList):
+    '''Given a list of numbers, return the standard deviation of that list
+
+    :param myList: list of numbers
+    :return: returns the standard deviation of a list of numbers
+    '''
+
+    # If there aren't any numbers in the list, return None
+    if len(myList) == 0:
+        return None
+
+    # If the "list" given is not a list, raise a type error
+    if type(myList) != list:
+        raise TypeError("input must be a list")
+
+    # If the list of numbers is a normal list or numbers, run the code to correctly calculate the standard deviation
+    else:
+        avg = sum(myList) / len(myList)
+        total = 0
+        for items in myList:
+            total += (avg - items) * (avg - items)
+        return round(math.sqrt(total / len(myList)), 4)
