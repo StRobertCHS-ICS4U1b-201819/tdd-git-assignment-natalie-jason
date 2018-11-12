@@ -119,16 +119,16 @@ def lower_quartile(myList):
     if len(myList) < 4:
         return -1
 
-    #Case where there are only 4 values
+    # Case where there are only 4 values
     elif len(myList) == 4:
         return myList[0]
 
-    #Case for even list
+    # Case for even list
     elif len(myList) % 2 == 0:
         median = (newList[newMed] + newList[newMed + 1]) / 2.0
         return median
 
-    #Case for odd list
+    # Case for odd list
     else:
         median = (newList[newMed])
         return median

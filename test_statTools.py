@@ -1,5 +1,4 @@
 import pytest
-import math
 from statTools import *
 
 # Test Mean Function
