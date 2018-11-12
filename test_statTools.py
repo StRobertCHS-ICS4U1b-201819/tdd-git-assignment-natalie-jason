@@ -100,35 +100,40 @@ def testlowquart5 ():
 # Basic Test Case #1 : Illegal Case - No Values
 
 
-def testhighquart1 ():
+def testhighquart1():
     assert(upper_quartile([]) == -1)
 
 # Basic Test Case #2 : Illegal Case - No Values
 
 
-def testhighquart2 ():
+def testhighquart2():
     with pytest.raises(TypeError) as datamsg:
-        upper_quartile("23")
+        upper_quartile("Billy Jean")
     assert ("Invalid input of a list" == str(datamsg.value))
 
 # Basic Test Case #3 : Corner Case
 
 
-def testhighquart3 ():
+def testhighquart3():
     assert(upper_quartile([1, 2, 6, 7]) == 6)
 
 # Basic Test Case #4 : Exhaustive Case
 # sorted list is [1, 11, 15, 19, 20, 24, 28, 34, 37, 44, 47, 50, 57]
 
 
-def testhighquart4 ():
+def testhighquart4():
     assert(upper_quartile([34, 47, 1, 15, 99, 24, 20, 11, 19, 50, 28, 37, 44]) == 44)
 
 # Basic Test Case #5 : Exhaustive Case 2
 
-def testhighquart5 ():
 
+def testhighquart5():
 
     assert(upper_quartile([2, 5, 5, 6, 7, 7, 8, 9]) == 7.5)
+
+#Basic Test Case #6 : One Value
+def testhighquart6():
+
+    print(upper_quartile([1]) == -1)
 
 
