@@ -43,7 +43,7 @@ def testmedian1 ():
 
 
 def testmedian2 ():
-    assert(median([1,4,5]) == 4)
+    assert(median([1, 4, 5]) == 4)
 
 # Basic Test Case #3: Decimal value/ Exhaustive Case
 
