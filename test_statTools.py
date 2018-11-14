@@ -55,7 +55,7 @@ def testmedian1 ():
 
 
 def testmedian2 ():
-    assert(median([1,4,5]) == 4)
+    assert(median([1, 4, 5]) == 4)
 
 # Basic Test Case #3: Decimal value/ Exhaustive Case
 
@@ -134,7 +134,7 @@ def testlowquart4 ():
 # Basic Test Case #5 : Corner Case
 
 def testlowquart5 ():
-    assert(lower_quartile([1, 2, 5, 8]) == 2)
+    assert(lower_quartile([1, 2, 5, 8]) == 1)
 
     # Test Higher Quartile Function
 # Basic Test Case #1 : Illegal Case - No Values
