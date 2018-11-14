@@ -60,6 +60,8 @@ def median(myList):
     # Raises an error if the input is not a list
     if type(myList) != list:
         raise TypeError("Invalid input of a list")
+    elif len(myList) == 0:
+        return -1
 
     # Sort list from smallest to largest
     myList.sort()
@@ -122,7 +124,7 @@ def lower_quartile(myList):
 
     # Case where there are only 4 values
     elif len(myList) == 4:
-        return myList[0]
+        return myList[1]
 
     # Case for even list
     elif len(myList) % 2 == 0:

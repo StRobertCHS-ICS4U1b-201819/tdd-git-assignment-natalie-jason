@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="178bc669-3d7f-4c83-9b7d-9442eba42bda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/statTools.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_statTools.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_statTools.py" afterDir="false" />
-    </list>
+    <list default="true" id="178bc669-3d7f-4c83-9b7d-9442eba42bda" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,11 +39,12 @@
     <session id="2096596412">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -85,7 +82,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test_statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
+            <state relative-caret-position="1440">
               <caret line="96" column="30" selection-start-line="96" selection-end-line="97" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
@@ -99,7 +96,6 @@
                 <marker date="1541986848000" expanded="true" signature="2409:2410" ph="..." />
                 <marker date="1541986848000" expanded="true" signature="2588:2801" ph="..." />
                 <marker date="1541986848000" expanded="true" signature="2741:2801" ph="..." />
-                <marker date="1541986848000" expanded="true" signature="2856:2897" ph="..." />
               </folding>
             </state>
           </provider>
@@ -108,8 +104,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/statTools.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="165" column="13" lean-forward="true" selection-start-line="165" selection-start-column="13" selection-end-line="165" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="165" column="13" selection-start-line="165" selection-start-column="13" selection-end-line="165" selection-end-column="13" />
               <folding>
                 <marker date="1541987785000" expanded="true" signature="571:576" ph="..." />
                 <marker date="1541987785000" expanded="true" signature="1618:1619" ph="..." />
@@ -386,7 +382,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -402,7 +397,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.26022306" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.26022306" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32961586" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -459,7 +454,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
+        <state relative-caret-position="1440">
           <caret line="96" column="30" selection-start-line="96" selection-end-line="97" />
           <folding>
             <element signature="e#0#13#0" expanded="true" />
@@ -473,15 +468,14 @@
             <marker date="1541986848000" expanded="true" signature="2409:2410" ph="..." />
             <marker date="1541986848000" expanded="true" signature="2588:2801" ph="..." />
             <marker date="1541986848000" expanded="true" signature="2741:2801" ph="..." />
-            <marker date="1541986848000" expanded="true" signature="2856:2897" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/statTools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="165" column="13" lean-forward="true" selection-start-line="165" selection-start-column="13" selection-end-line="165" selection-end-column="13" />
+        <state relative-caret-position="340">
+          <caret line="165" column="13" selection-start-line="165" selection-start-column="13" selection-end-line="165" selection-end-column="13" />
           <folding>
             <marker date="1541987785000" expanded="true" signature="571:576" ph="..." />
             <marker date="1541987785000" expanded="true" signature="1618:1619" ph="..." />
