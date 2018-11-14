@@ -82,12 +82,13 @@ def median(myList):
     mid = (first + last) // 2
     median = 0.0
 
-    # Case where this is only 1 median
+    # Case where there are 2 medians, and an average must be calculated
+
     if len(myList) % 2 == 0:
         median = (myList[mid] + myList[mid + 1]) / 2.0
         return median
 
-    # Case where there are 2 medians, and an average must be calculated
+    # Case where this is only 1 median
     else:
         median = (myList[mid])
         return float(median)
