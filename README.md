@@ -1,5 +1,7 @@
 # TDD & Git Assignment
-Natalie: mean, median, range, variance 
+Natalie: mean, median, lower quartile, upper quartile 
+
+Jason: Mode, range, standard deviation, variance
 ## 1) Objective
 
 Using Test-Driven Development, you will work with a partner to create a single python module called **statTools.py** that contains functions for [Measures of Central Tendency](https://www.statcan.gc.ca/edu/power-pouvoir/ch11/5214867-eng.htm) and [Measures of Spread](https://www.statcan.gc.ca/edu/power-pouvoir/ch12/5214876-eng.htm).  
