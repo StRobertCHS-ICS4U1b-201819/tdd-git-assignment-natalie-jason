@@ -76,9 +76,6 @@ def testmedian5 ():
         median("Hello")
     assert ("Invalid input of a list" == str(datamsg.value))
 
-    # Test Lower Quartile Function
-# Basic Test Case #1: Illegal Case - No values in list
-
 # Test Mode
 
 # Basic Mode Test Case #1: General Case
@@ -106,6 +103,13 @@ def test_mode4():
 
 def test_mode5():
     assert(mode([2, 2, 2, 3, 3, 3]) == 2, 3)
+
+# Basic Mode Test Case #6: Illegal case, incorrect data type
+
+def test_mode6():
+    with pytest.raises(TypeError) as valerror:
+        range(["abc"])
+    assert("Invalid List Provided" == str(valerror.value))
 
 # Test Range Function
 
@@ -137,7 +141,8 @@ def test_range_5():
     assert("Invalid List Provided" == str(valerror.value))
 
 
-#Test lower quartile
+    # Test Lower Quartile Function
+# Basic Test Case #1: Illegal Case - No values in list
 
 def testlowquart1 ():
     assert(lower_quartile([]) == -1)
@@ -225,6 +230,13 @@ def test_variance3():
 def test_variance4():
     assert(variance([]) == None)
 
+# Basic Variance Test Case #5: Illegal case, incorrect data type
+
+def test_variance5():
+    with pytest.raises(TypeError) as valerror:
+        range(["abc"])
+    assert("Invalid List Provided" == str(valerror.value))
+
 
 # Test Standard Deviation Function
 
@@ -247,3 +259,10 @@ def test_standard_deviation3():
 
 def test_standard_deviation4():
     assert(standardDeviation([]) == None)
+
+# Basic Standard Deviation Test Case #5: Illegal case, incorrect data type
+
+def test_standard_deviation5():
+    with pytest.raises(TypeError) as valerror:
+        range(["abc"])
+    assert("Invalid List Provided" == str(valerror.value))
