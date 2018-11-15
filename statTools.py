@@ -116,25 +116,23 @@ def mode(myList):
         raise TypeError("Invalid List Provided")
 
 def range(rangeList):
-    ''' Given a list, returns the range of the list
+    '''Given a list, returns the range of the list
 
     :param rangeList: list of numbers
     :return: Range of the list
     '''
 
-    # raises an error if the list doesn't have any values
     if len(rangeList) == 0:
         return -1
 
-    # sorts the list in order of increasing value, find range by subtracting the last value to the first value (larges # - smallest #)
     try:
         rangeList.sort()
         realRange = rangeList[len(rangeList) - 1] - rangeList[0]
         return round(realRange, 2)
 
-    # excepts error in an invalid list is given
     except TypeError:
         raise TypeError("Invalid List Provided")
+
 
 
 """

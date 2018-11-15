@@ -111,31 +111,19 @@ def test_mode5():
 
 # Basic Range Test Case #1: General case
 
-def test_range_1():
+def test_range1():
     assert(range([1, 2, 3, 4, 24, 537, 37, 16, 4]) == 536)
 
-# Basic Range Test Case #2: General case: with negative numbers
+def test_range2():
+    assert(range([]) == -1)
 
-def test_range_2():
-    assert(range([11, 15, -16, -5, 28, -64, 845, 82, 25]) == 909)
-
-# Basic Range Test Case #3: Illegal Case, no data
-
-def test_range_3():
-    assert (range([]) == -1)
-
-# Basic Range Test Case #4: Corner case
-
-def test_range_4():
-    assert (range([0]) == 0)
-
-# Basic Range Test Case #5: Incorrect data type
-
-def test_range_5():
+def test_range3():
     with pytest.raises(TypeError) as valerror:
-        range(["abc"])
+        (range(["abc"]))
     assert("Invalid List Provided" == str(valerror.value))
 
+def test_range4():
+    assert(range([0]) == 0)
 
 #Test lower quartile
 
