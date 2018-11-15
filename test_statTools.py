@@ -112,19 +112,24 @@ def test_mode5():
 # Basic Range Test Case #1: General case
 
 def test_range_1():
-    assert(range([1,2,3,4,24,537,37,16, 4]) == 536)
+    assert(range([1, 2, 3, 4, 24, 537, 37, 16, 4]) == 536)
 
-# Basic Range Test Case #2:
+# Basic Range Test Case #2: General case: with negative numbers
 
 def test_range_2():
-    assert(range([11,15,16,5,28,64,845,82,25]) == 840)
+    assert(range([11, 15, -16, -5, 28, -64, 845, 82, 25]) == 909)
 
 # Basic Range Test Case #3: Illegal Case, no data
 
 def test_range_3():
-    with pytest.raises(ValueError) as valerror:
-        range([])
-    assert ("No Data Provided" == str(valerror.value))
+    assert (range([]) == -1)
+
+
+# Basic Range Test Case #4: Corner case
+
+def test_range_4():
+    assert (range([0]) == 0)
+
 
 #Test lower quartile
 

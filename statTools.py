@@ -119,7 +119,7 @@ def range(rangeList):
 
     # raises an error if the list doesn't have any values
     if len(rangeList) == 0:
-        raise ValueError("No Data Provided")
+        return -1
 
     # sorts the list in order of increasing value, find range by subtracting the last value to the first value (larges # - smallest #)
     try:
