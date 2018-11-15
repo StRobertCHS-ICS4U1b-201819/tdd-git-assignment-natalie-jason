@@ -199,20 +199,29 @@ def testhighquart5 ():
 
 # Test Variance
 
+# Basic Variance Test Case #1: General case
+
 def test_variance1():
-    assert(variance([1, 2, 3, 4, 5, 6, 7, 8,9]) == 6.0000)
+    assert(variance([1, 2, 3, 4, 5, 6, 7, 8, 9]) == 6.0000)
+
+# Basic Variance Test Case #2: Corner case
 
 def test_variance2():
     assert(variance([0]) == 0)
 
+# Basic Variance Test Case #3: General case, with negative numbers
+
 def test_variance3():
-    assert(variance([14, 72, 25, 73, 84, 34, 74, 16]) == 758.0000)
+    assert(variance([-14, 72, -25, 73, -84, 34, 74, -16]) == 2956.0000)
+
+# Basic Variance Test Case #4: Illegal case, no values
 
 def test_variance4():
     assert(variance([]) == None)
 
 
 # Test Standard Deviation Function
+
 
 
 def test_standard_deviation1():
