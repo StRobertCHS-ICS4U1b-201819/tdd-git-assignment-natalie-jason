@@ -106,9 +106,14 @@ def mode(myList):
     if len(myList) == 0:
         return None
 
-    # Counts the number of times a value appears in a list and returns the most common value
-    mode = max(set(myList), key=myList.count)
-    return mode
+    try:
+        # Counts the number of times a value appears in a list and returns the most common value
+        mode = max(set(myList), key=myList.count)
+        return mode
+
+    # excepts error in an invalid list is given
+    except TypeError:
+        raise TypeError("Invalid List Provided")
 
 def range(rangeList):
     ''' Given a list, returns the range of the list
