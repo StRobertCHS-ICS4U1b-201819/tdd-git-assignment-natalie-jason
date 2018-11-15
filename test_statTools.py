@@ -124,11 +124,17 @@ def test_range_2():
 def test_range_3():
     assert (range([]) == -1)
 
-
 # Basic Range Test Case #4: Corner case
 
 def test_range_4():
     assert (range([0]) == 0)
+
+# Basic Range Test Case #5: Incorrect data type
+
+def test_range_5():
+    with pytest.raises(TypeError) as valerror:
+        range(["abc"])
+    assert("Invalid List Provided" == str(valerror.value))
 
 
 #Test lower quartile
