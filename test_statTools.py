@@ -222,16 +222,22 @@ def test_variance4():
 
 # Test Standard Deviation Function
 
-
+# Basic Standard Deviation Test Case #1: General case
 
 def test_standard_deviation1():
-    assert(standardDeviation([1, 2, 3, 4, 5, 6, 7, 8,9]) == 2.4495)
+    assert(standardDeviation([1, 2, 3, 4, 5, 6, 7, 8, 9]) == 2.4495)
+
+# Basic Standard Deviation Test Case #2: Corner case
 
 def test_standard_deviation2():
     assert(standardDeviation([0]) == 0)
 
+# Basic Standard Deviation Test Case #3: General case, with negative numbers
+
 def test_standard_deviation3():
-    assert(standardDeviation([14, 72, 25, 73, 84, 34, 74, 16]) == 27.5318)
+    assert(standardDeviation([-14, 72, -25, 73, -84, 34, 74, -16]) == 54.3691)
+
+# Basic Standard Deviation Test Case #4: Illegal case, no values
 
 def test_standard_deviation4():
     assert(standardDeviation([]) == None)
