@@ -81,25 +81,45 @@ def testmedian5 ():
 
 # Test Mode
 
+# Basic Mode Test Case #1: General Case
+
 def test_mode1():
     assert(mode([1, 2, 4, 5, 4, 6, 5, 6, 2, 5, 6, 3, 6]) == 6)
+
+
+# Basic Mode Test Case #2: Illegal case
 
 def test_mode2():
     assert(mode([]) == None)
 
+# Basic Mode Test Case #3: General case, negative numbers
+
 def test_mode3():
-    assert(mode([15, 763, 34, 2, 62, 73, 245, 763]) == 763)
+    assert(mode([-15, -763, -34, -2, -62, -73, -245, -763]) == -763)
+
+# Basic Mode Test Case #4: Corner Case
 
 def test_mode4():
     assert(mode([0]) == 0)
 
+# Basic Mode Test Case #5: Unusual Case
+
+def test_mode5():
+    assert(mode([2, 2, 2, 3, 3, 3]) == 2, 3)
+
 # Test Range Function
+
+# Basic Range Test Case #1: General case
 
 def test_range_1():
     assert(range([1,2,3,4,24,537,37,16, 4]) == 536)
 
+# Basic Range Test Case #2:
+
 def test_range_2():
     assert(range([11,15,16,5,28,64,845,82,25]) == 840)
+
+# Basic Range Test Case #3: Illegal Case, no data
 
 def test_range_3():
     with pytest.raises(ValueError) as valerror:
